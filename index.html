@@ -1,9 +1,89 @@
-<!doctype html>
-<html>
-  <head>
-    <title>This is the title of the webpage!</title>
-  </head>
-  <body>
-    <p>This is an example paragraph. Anything in the <strong>body</strong> tag will appear on the page, just like this <strong>p</strong> tag and its contents.</p>
-  </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Your Name</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    details {
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      padding: 10px;
+      background: #f9f9f9;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Your Name
+  </header>
+
+  <section>
+    <details>
+      <summary style="font-size: 20px; cursor: pointer;">Thesis</summary>
+
+      <table>
+        <tr>
+          <th>Title</th>
+          <th>Audio</th>
+        </tr>
+
+        <tr>
+          <td>Audio Example 1</td>
+          <td>
+            <audio controls>
+              <source src="audio1.mp3" type="audio/mpeg">
+            </audio>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Audio Example 2</td>
+          <td>
+            <audio controls>
+              <source src="audio2.mp3" type="audio/mpeg">
+            </audio>
+          </td>
+        </tr>
+
+      </table>
+    </details>
+  </section>
+
+</body>
 </html>
